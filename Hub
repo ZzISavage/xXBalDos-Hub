@@ -6,16 +6,16 @@ local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZzIS
 
 
 local UI = Material.Load({
-     Title = "xXBalDo2kxxxx's Hub",
-     Style = 24,
-     SizeX = 500,
-     SizeY = 200,
-     Theme = "xXBalDo"
+	Title = "xXBalDo2kxxxx's Hub",
+	Style = 24,
+	SizeX = 500,
+	SizeY = 200,
+	Theme = "xXBalDo"
 })
 
 local Page = UI.New({
-    Title = "Main",
-   
+	Title = "Main",
+
 
 })
 
@@ -30,39 +30,45 @@ Page.Button({
 ]]--
 -- ASTD
 Page.Button({
-    Text = "All Star Tower Defense",
-    Callback = function()
-      -- loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	Text = "All Star Tower Defense",
+	Callback = function()
+		-- loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
 
-       
 
-    end
+
+	end
 })
 -- A one piece game
 
 Page.Button({
-    Text = "A One Piece Game",
-    Callback = function()
-      -- loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+	Text = "A One Piece Game",
+	Callback = function()
+		-- loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
 
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
-    end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
+	end
 })
 -- Infinite Yield (Universal)
 Page.Button({
-    Text = "Infinite Yield",
-    Callback = function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    end
+	Text = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
 })
 -- Arsenal Dark Hub 
 Page.Button({
-    Text = "Arsenal | Dark Hub",
-    Callback = function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-    end
+	Text = "Arsenal | Dark Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
 })
-
+-- Slap Battles Hub
+Page.Button({
+	Text = "Slap Battles",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
+	end
+})
 
 
 
