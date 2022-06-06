@@ -69,6 +69,13 @@ Page.Button({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
 	end
 })
+-- Unfair Hub
+Page.Button({
+	Text = "Unfair Hub",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+	end
+})
 
 
 
