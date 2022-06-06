@@ -100,3 +100,11 @@ Page.Button({
 	end
 })
 
+-- Raise a Floppa
+Page.Button({
+	Text = "Raise a Floppa",
+	Callback = function()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
+	end
+})
+
