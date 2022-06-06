@@ -2,7 +2,7 @@
 -- Instructions
 ]]--
 
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZzISavage/xXBalDos-Hub/main/MaterialCustom"))()
 
 
 local UI = Material.Load({
@@ -10,7 +10,7 @@ local UI = Material.Load({
      Style = 24,
      SizeX = 500,
      SizeY = 200,
-     Theme = "Dark"
+     Theme = "xXBalDo"
 })
 
 local Page = UI.New({
