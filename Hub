@@ -76,6 +76,14 @@ Page.Button({
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 	end
 })
+-- Bedwars Hub
+Page.Button({
+	Text = "Bedwars",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+	end
+})
+
 
 
 
