@@ -13,19 +13,7 @@ local UI = Material.Load({
 	Theme = "xXBalDo"
 })
 })
--- Credits
-local CreditsPage = UI.New({
-	Title = "Credits",
 
-
-})
--- Credits
-CreditsPage.Label({
-	Text = "All credits go to the script's/hub's owner (should be able to find in the script/hub)",
-})
-CreditsPage.Label({
-	Text = "Creator - zzisavage#1337 (Put the hubs and scripts together into one)",
-})
 
 -- Main
 local Page = UI.New({
