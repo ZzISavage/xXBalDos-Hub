@@ -14,16 +14,16 @@ local UI = Material.Load({
 })
 })
 -- Credits
-local CreditsPage = UI.New({
+local CreditsPage = UI.Menu({
 	Title = "Credits",
 
 
 })
 -- Credits
-CreditsPage.Box({
+CreditsPage.Label({
 	Text = "All credits go to the script's/hub's owner (should be able to find in the script/hub)",
 })
-CreditsPage.Box({
+CreditsPage.Label({
 	Text = "Creator - zzisavage#1337 (Put the hubs and scripts together into one)",
 })
 
