@@ -107,4 +107,10 @@ Page.Button({
            loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
 	end
 })
-
+-- AUT 
+Page.Button({
+	Text = "A Universal Time",
+	Callback = function()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/MXS-Scripts/mxs-free/main/AUT.lua", true))()
+	end
+})
