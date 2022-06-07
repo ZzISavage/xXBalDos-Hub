@@ -20,10 +20,10 @@ local CreditsPage = UI.New({
 
 })
 -- Credits
-CreditsPage.Label({
+CreditsPage.Box({
 	Text = "All credits go to the script's/hub's owner (should be able to find in the script/hub)",
 })
-CreditsPage.Label({
+CreditsPage.Box({
 	Text = "Creator - zzisavage#1337 (Put the hubs and scripts together into one)",
 })
 
