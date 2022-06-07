@@ -13,10 +13,24 @@ local UI = Material.Load({
 	Theme = "xXBalDo"
 })
 
+-- Main
 local Page = UI.New({
 	Title = "Main",
 
 
+})
+-- Credits
+local CreditsPage = UI.New({
+	Title = "Credits",
+
+
+})
+-- Credits
+Page.Label({
+	Text = "All credits go to the script's/hub's owner (should be able to find in the script/hub)",
+})
+Page.Label({
+	Text = "Creator - zzisavage#1337 (Put the hubs and scripts together into one)",
 })
 
 --Template
@@ -32,7 +46,7 @@ Page.Button({
 Page.Button({
 	Text = "All Star Tower Defense",
 	Callback = function()
-		-- loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
+           loadstring(game:HttpGet("http://assasine.com/Scripts/All%20Star%20Tower%20Defense.lua", true))()
 
 
 
