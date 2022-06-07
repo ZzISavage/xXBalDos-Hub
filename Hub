@@ -137,8 +137,5 @@ CreditsPage.Label({
 
 })
 
-CreditsPage.ScrollingFrame({
-    Text = "Put together by zzisavage#1337",
 
-})
 
