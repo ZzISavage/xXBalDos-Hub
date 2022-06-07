@@ -114,3 +114,10 @@ Page.Button({
            loadstring(game:HttpGet("https://raw.githubusercontent.com/MXS-Scripts/mxs-free/main/AUT.lua", true))()
 	end
 })
+-- AUT 2
+Page.Button({
+	Text = "A Universal Time 2",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/muzrblx/nanocores/main/Loader/HubLoader.lua"))()
+	end
+})
