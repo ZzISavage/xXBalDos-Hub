@@ -12,12 +12,6 @@ local UI = Material.Load({
 	SizeY = 200,
 	Theme = "xXBalDo"
 })
-
--- Main
-local Page = UI.New({
-	Title = "Main",
-
-
 })
 -- Credits
 local CreditsPage = UI.New({
@@ -32,6 +26,13 @@ CreditsPage.Label({
 CreditsPage.Label({
 	Text = "Creator - zzisavage#1337 (Put the hubs and scripts together into one)",
 })
+
+-- Main
+local Page = UI.New({
+	Title = "Main",
+
+
+
 
 --Template
 --[[
