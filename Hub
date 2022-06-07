@@ -14,7 +14,7 @@ local UI = Material.Load({
 })
 })
 -- Credits
-local CreditsPage = UI.New({
+local CreditsPage = UI.Menu({
 	Title = "Credits",
 
 
