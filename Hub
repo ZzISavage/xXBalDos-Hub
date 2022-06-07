@@ -12,7 +12,6 @@ local UI = Material.Load({
 	SizeY = 200,
 	Theme = "xXBalDo"
 })
-})
 
 
 -- Main
@@ -20,7 +19,7 @@ local Page = UI.New({
 	Title = "Main",
 
 
-
+})
 
 --Template
 --[[
@@ -123,4 +122,17 @@ Page.Button({
 	Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/muzrblx/nanocores/main/Loader/HubLoader.lua"))()
 	end
+})
+
+-------------------------------------------------------------------------------------------------
+-- Credits
+local CreditsPage = UI.New({
+	Title = "Credits",
+
+
+})
+
+CreditsPage.Label({
+    Text = "Put together by zzisavage#1337",
+
 })
