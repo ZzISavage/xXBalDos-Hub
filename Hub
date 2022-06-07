@@ -127,7 +127,7 @@ Page.Button({
 -------------------------------------------------------------------------------------------------
 -- Credits
 local CreditsPage = UI.New({
-	Title = "Credits",
+	Title = "Credits/Info",
 
 
 })
@@ -136,3 +136,9 @@ CreditsPage.Label({
     Text = "Put together by zzisavage#1337",
 
 })
+
+CreditsPage.ScrollingFrame({
+    Text = "Put together by zzisavage#1337",
+
+})
+
