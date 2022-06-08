@@ -1,4 +1,4 @@
-
+--[[
 |￣￣￣￣￣￣￣ ￣ ￣ ￣ ￣ ￣ ￣￣￣￣￣￣ |  
 |   Partially Made by xXBalDo2kxxxxX     |
 |＿＿＿＿＿ _＿___________________________|
@@ -23,7 +23,7 @@
 ░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
 ░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
 ░░████████████░░░█████████████████
-
+]]--
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 
