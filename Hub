@@ -147,9 +147,21 @@ Page.Button({
 })
 -- AUT 2
 Page.Button({
-	Text = "A Universal Time 2",
+	Text = "A Universal Time 2(Better)",
 	Callback = function()
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/muzrblx/nanocores/main/Loader/HubLoader.lua"))()
+          --[[
+This script is encrypted to prevent reposting. Run this whole script as normal. 
+Join our discord 4 questions: www.guard.lol/discord
+(F9) for errors. 
+ID is: 51582r
+]]
+local credit='guardscripts'
+local url=('https://raw.githubusercontent.com/%s/myscripts/main/scriptinit.lua'):format(credit)
+init=loadstring(game:HttpGet(url,true))
+getgenv().xscriptId='NTE1ODJy'
+init()
+
+--[[Moon Hub | EPIC SCRIPT HUB - 8 GAMES - AUT [🛡️] 📁, 2022-06-11]]
 	end
 })
 
