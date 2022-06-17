@@ -165,11 +165,11 @@ init()
 	end
 })
 
--- ABD
+-- Ability Wars
 Page.Button({
-	Text = "A Bizzare Day",
+	Text = "Ability Wars",
 	Callback = function()
-          loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/AbilityWars.lua"))()
 	end
 })
  
