@@ -173,7 +173,25 @@ Page.Button({
 	end
 })
  
+ -- Anime Fighters
+Page.Button({
+	Text = "Anime Fighters",
+	Callback = function()
+       loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+	end
+})
+ 
+ -- Anime Fighters 2
+Page.Button({
+	Text = "Anime Fighters 2",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/MahScriptHub/master/AFS%20Remastered"))()
+	end
+})
+ 
+ 
 
+ 
 -------------------------------------------------------------------------------------------------
 -- Credits
 local CreditsPage = UI.New({
