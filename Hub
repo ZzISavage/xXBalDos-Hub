@@ -185,7 +185,7 @@ Page.Button({
 Page.Button({
 	Text = "Anime Fighters 2",
 	Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/MahScriptHub/master/AFS%20Remastered"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
 	end
 })
  
