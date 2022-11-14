@@ -93,7 +93,14 @@ Page.Button({
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end
 })
--- Slap Battles Hub
+  -- Blox Fruits
+Page.Button({
+	Text = "Blox Fruits",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+	end
+})
+ -- Slap Battles Hub
 Page.Button({
 	Text = "Slap Battles",
 	Callback = function()
@@ -197,7 +204,16 @@ Page.Button({
 	end
 })
  
+   -- Blox Fruits
+Page.Button({
+	Text = "Blox Fruits",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+	end
+})
  
+
+
 
  
 -------------------------------------------------------------------------------------------------
